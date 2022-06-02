@@ -1,0 +1,16 @@
+<diagram program="umletino" version="15.0.0"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>200</x><y>120</y><w>210</w><h>100</h></coordinates><panel_attributes>Player
+--
+private String name
+--
+public void play()
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>750</x><y>120</y><w>210</w><h>100</h></coordinates><panel_attributes>Dice
+--
+private int faceValue
+--
+public int play()
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>200</x><y>370</y><w>210</w><h>100</h></coordinates><panel_attributes>DiceGame
+--
+
+--
+void initialize()</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>290</x><y>210</y><w>60</w><h>180</h></coordinates><panel_attributes>Plays</panel_attributes><additional_attributes>10;10;10;160</additional_attributes></element><element><id>Relation</id><coordinates><x>400</x><y>190</y><w>370</w><h>40</h></coordinates><panel_attributes>Rolls</panel_attributes><additional_attributes>350;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>400</x><y>210</y><w>460</w><h>250</h></coordinates><panel_attributes>Includes
+</panel_attributes><additional_attributes>440;10;440;220;10;220</additional_attributes></element></diagram>
